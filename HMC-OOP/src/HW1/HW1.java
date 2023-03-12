@@ -20,14 +20,14 @@ public class HW1 {
 
         int fuelEfficiency = 10;
         int fuelAmount = 20;
-        int driveDistance = 300;
+        int driveDistance = 100;
 
         Car car1 = new Car(fuelEfficiency);
         System.out.println("Fuel efficiency set: " + car1.getEfficiencyKmPerLitre());
         car1.addFuel(fuelAmount);
         System.out.println("Fuel level set: " + car1.getFuelLevel());
         System.out.println("Drive distance: " + driveDistance);
-        car1.drive(300);
+        car1.drive(driveDistance);
         System.out.println("Resulting fuel level: " + car1.getFuelLevel());
 
         System.out.println("======== HW1 Bonus END ========");
